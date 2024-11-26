@@ -66,7 +66,7 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    text-transform: uppercase;
+    text-trans: uppercase;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), 
                 -4px -4px 8px rgba(255, 255, 255, 0.1); /* 3D shadow effect */
     transition: all 0.3s ease, transform 0.3s ease;
@@ -628,7 +628,10 @@
                       </h5>
                     </div>
                     <div>
-                      <form action="" method="post" >
+                      <form action="https://api.web3forms.com/submit" method="post" >
+                         <input type="hidden" name="access_key" value="8374e2e5-962a-4d97-8e0a-ecdf099c7292
+">
+                        <input type="hidden" name="from_name" value="Message Form Clients!">
                         <div class="row">
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
@@ -660,7 +663,7 @@
                             <div class="sent-message">Your message has been sent. Thank you!</div>
                           </div>
                           <div class="col-md-12 text-center">
-                            <button type="submit" name="add" class="button button-a button-big button-rouded">Send Message</button>
+                            <button type="submit" name="submit" class="button button-a button-big button-rouded">Send Message</button>
                           </div>
                         </div>
                       </form>
